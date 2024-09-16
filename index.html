@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesifraElCodigo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div class="panel" id="panel-1">
+            <h2>Nivel 1</h2>
+            <button onclick="downloadFile(1)">Descargar archivo</button>
+            <input type="text" id="input-1" placeholder="Introduce el código">
+            <button onclick="checkCode(1)">Siguiente</button>
+            <p id="error-1" class="error-message"></p>
+        </div>
+
+        <!-- Repetir para 7 niveles -->
+        <!-- Paneles adicionales están ocultos al principio -->
+        <div class="panel" id="panel-2" style="display: none;">
+            <h2>Nivel 2</h2>
+            <button onclick="downloadFile(2)">Descargar archivo</button>
+            <input type="text" id="input-2" placeholder="Introduce el código">
+            <button onclick="checkCode(2)">Siguiente</button>
+            <p id="error-2" class="error-message"></p>
+        </div>
+
+        <div class="panel" id="panel-3" style="display: none;">
+            <h2>Nivel 3</h2>
+            <button onclick="downloadFile(3)">Descargar archivo</button>
+            <input type="text" id="input-3" placeholder="Introduce el código">
+            <button onclick="checkCode(3)">Siguiente</button>
+            <p id="error-3" class="error-message"></p>
+        </div>
+
+        <div class="panel" id="panel-4" style="display: none;">
+            <h2>Nivel 4</h2>
+            <button onclick="downloadFile(4)">Descargar archivo</button>
+            <input type="text" id="input-4" placeholder="Introduce el código">
+            <button onclick="checkCode(4)">Siguiente</button>
+            <p id="error-4" class="error-message"></p>
+        </div>
+
+        <div class="panel" id="panel-5" style="display: none;">
+            <h2>Nivel 5</h2>
+            <button onclick="downloadFile(5)">Descargar archivo</button>
+            <input type="text" id="input-5" placeholder="Introduce el código">
+            <button onclick="checkCode(5)">Siguiente</button>
+            <p id="error-5" class="error-message"></p>
+        </div>
+
+        <div class="panel" id="panel-6" style="display: none;">
+            <h2>Nivel 6</h2>
+            <button onclick="downloadFile(6)">Descargar archivo</button>
+            <input type="text" id="input-6" placeholder="Introduce el código">
+            <button onclick="checkCode(6)">Siguiente</button>
+            <p id="error-6" class="error-message"></p>
+        </div>
+
+        <div class="panel" id="panel-7" style="display: none;">
+            <h2>Nivel 7</h2>
+            <button onclick="downloadFile(7)">Descargar archivo</button>
+            <input type="text" id="input-7" placeholder="Introduce el código">
+            <button onclick="checkCode(7)">Siguiente</button>
+            <p id="error-7" class="error-message"></p>
+        </div>
+
+        
+        <!-- Continuar hasta el nivel 7 -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
